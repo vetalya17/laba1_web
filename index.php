@@ -14,7 +14,7 @@
         <span class="right">
         
         <?php if (empty($_SESSION['user'])): ?>
-          <a href="log_in.php" class="btn btn-secondary" role="button" aria-pressed="true">Log in</a>
+          <a href="log_in.php" class="btn btn-secondary" role="button" aria-pressed="true">Logii in</a>
           <a href="sign_in.php" class="btn btn-light" role="button" aria-pressed="true">Sign in</a> 
         <?php else: ?>
           <img src="<?=$_SESSION['photo']?>" width="30" height="30" class="d-inline-block align-top" alt=""><?=$_SESSION['user']?></a>
